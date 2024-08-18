@@ -1,0 +1,137 @@
+/* Html Elements */
+html {
+    background-color: #EBEBEB;
+    font: normal 12px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;  
+}
+
+body {
+    padding: 0;
+    clear: both;
+    margin: 0 auto;
+}
+
+/* Container */
+#container {
+    background-color: white;
+/*    background-image: url(../img/bg.png); */
+    width: 860px;
+    margin: 0 auto;
+    padding: 10px 20px 20px;
+    box-shadow: 0px 0px 8px 2px rgba(195, 30, 18, 0.5);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(195, 30, 18, 0.5);
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(195, 30, 18, 0.5);
+}
+
+/* header */
+
+#header {
+    text-align:center; 
+    vertical-align:middle; 
+    padding: 6px 0 6px;
+    color: #fff;
+    font-size: 1em;
+/*    background-color: #2578EC;*/
+    background : url(../img/slide-bg.png) 0 0;
+}
+
+#header a:link,
+#header a:visited
+{
+	color: #eff8ff;
+}
+
+p {
+    font: normal 13px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;
+}
+
+a { 
+    color: #2578EC;
+    font-weight: bold; 
+    text-decoration:none;
+}
+
+h1, h2, h3 { 
+    font-weight: bold; 
+    margin: 5px 0 10px; 
+    padding: 0; 
+}
+
+h1 a, h2 a, h3 a { 
+    font-weight: normal; 
+    border-bottom-width: 0; 
+}
+
+h1 { 
+    color: #C31E12;
+    font-size: 15px;   
+}
+
+h2 { 
+    color: #C31E12;
+    font-size: 20px; 
+}
+
+h3 { 
+    color: white;
+    background: #C31E12;
+    text-align: center;
+    font-size: 10px; 
+    margin-right: 15px;
+    border: 1px solid #392222;
+}
+
+table {
+    width: 100%; 
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+td {
+    font: normal 13px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+td#programa {
+    width: 12%;
+    border: 2px solid #392222;
+}
+
+td#numerito {
+    font-weight: bold;
+    text-align: left;
+    width: 6%;
+}
+
+td#numerito2 {
+    text-align: left;
+    width: 12.5%;
+}
+
+td#numerito3 {
+    text-align: left;
+    width: 6%;
+}
+
+li {
+    text-align: justify;
+}
+
+table#izquierda {
+    text-align: left;
+    margin-left: 3%;
+    width: 98%;
+}
+
+table#barra, tr#barra-tr {
+    border: 1px solid #392222; 
+}
+
+table#barra a{
+    color: white;
+}
+
+table#tablas td{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
