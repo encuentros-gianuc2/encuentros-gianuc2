@@ -1,1 +1,83 @@
-Hola manola
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Encuentros GIANuC&sup2;</title>
+    <meta name="author" content="Encuentros GIANuC&sup2;" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="icon" type="image/ico" href="img/favicon.png" /> 
+ 
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/frames.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript">
+        if(!window.slider) 
+            var slider={};
+            slider.data=[{"id":"img-1","desc":"Vista aérea del Campus San Andrés de la UCSC"},
+                         {"id":"img-2","desc":"Velocity-vorticity-pressure mixed formulation for the Kelvin-Voigt-Brinkman-Forchheimer equations"},
+                         {"id":"img-3","desc":"A skew-symmetric-based mixed FEM for stationary MHD flows in highly porous media"},
+                         {"id":"img-4","desc":"A posteriori error analysis of a mixed finite element method for the stationary convective Brinkman-Forchheimer problem"}];
+    </script>
+</head>
+
+<body onmousedown='return false;' onselectstart='return false;'>
+
+<center>
+
+<div id="header">
+<a href=""> INICIO </a> &nbsp; &nbsp; | &nbsp; &nbsp;
+<a href="https://gianuc2.github.io" target="_blank">GIANuC&sup2;-UCSC</a> &nbsp; &nbsp; | &nbsp; &nbsp;    	 	
+<a href="https://ingenieria.ucsc.cl" target="_blank">INGENIERÍA-UCSC</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+<a href="http://dmfa.ucsc.cl" target="_blank">DMFA-UCSC</a> &nbsp; &nbsp; | &nbsp; &nbsp;      
+<a href="https://ingenieria.ucsc.cl/departamentos/departamento-de-ingenieria-civil" target="_blank">DIC-UCSC</a> &nbsp; &nbsp; | &nbsp; &nbsp;      
+<a href="http://m2a.ucsc.cl" target="_blank">M2A-UCSC</a> &nbsp; &nbsp; | &nbsp; &nbsp;       
+<a href="https://vrip.ucsc.cl" target="_blank">VRIP-UCSC</a>
+</div>
+
+<div id="container">
+<img src="img/main-banner.png" width="98%">
+
+    <div id="navigation-sup">
+
+    </div>
+
+    <div id="slider">
+        <div class="wrap"><div id="slide-holder"><div id="slide-runner">
+            <a href="https://ucsc.cl" target="_blank"><img id="img-1" src="img/banner/campus-ucsc.jpg" width="100%"></a> 		
+            <a href="https://arxiv.org/abs/2406.16703" target="_blank"><img id="img-2" src="img/banner/KVBF-channel.jpg" width="100%"></a> 		
+            <a href="https://www.ci2ma.udec.cl/publicaciones/prepublicaciones/prepublicacionen.php?id=548" target="_blank"><img id="img-3" src="img/banner/MHD-no-convex.jpg" width="100%"></a> 
+            <a href="https://www.ci2ma.udec.cl/publicaciones/prepublicaciones/prepublicacionen.php?id=555" target="_blank"><img id="img-4" src="img/banner/CBF-a-posteriori.jpg" width="100%"></a>
+                <div id="slide-controls">
+                    <p id="slide-desc" class="text"></p>
+                    <p id="slide-nav"></p>
+                </div>
+        </div></div></div>
+    </div>
+
+    <div id="content">
+        <div id="menu">
+	    <ul class="nav-menu">					
+            <li><a href="#" onclick="frames(1)">Inicio</a></li>
+            <li><a href="#" onclick="frames(2)">Programa</a></li>
+            <li><a href="#" onclick="frames(3)">Postulación</a></li>
+            <li><a href="#" onclick="frames(4)">Patrocinadores</a></li>
+            <li><a href="#" onclick="frames(5)">Galeria Encuentros</a></li>		    
+        </ul>
+	</div>
+
+	<div id="main-body">
+            <iframe id="enframe" scrolling="auto" frameborder="0" height="550" width ="100%" src="pages/home.html"></iframe>
+        </div>
+    </div>
+    
+    <div id="footer">
+&nbsp; 
+    </div>
+
+</div>
+
+</center>
+
+</body>
+
+</html>
