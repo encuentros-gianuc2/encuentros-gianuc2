@@ -8,7 +8,7 @@ function frames(variable){
     }
     else if (variable==2){
         document.getElementById("enframe").src="pages/programa.html";
-        document.getElementById("enframe").height="1200";
+        document.getElementById("enframe").height="1100";
     } 
     else if (variable==3){
         document.getElementById("enframe").src="pages/postulacion.html";
