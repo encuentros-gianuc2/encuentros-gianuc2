@@ -12,7 +12,7 @@ function frames(variable){
     } 
     else if (variable==3){
         document.getElementById("enframe").src="pages/postulacion.html";
-        document.getElementById("enframe").height="1000";
+        document.getElementById("enframe").height="1300";
     }
     else if (variable==4){
         document.getElementById("enframe").src="pages/patrocinadores.html";
